@@ -1,0 +1,18 @@
+{
+    "name": "electron-webscraper",
+    "version": "1.0.0",
+    "description": "Electron based web scraper",
+    "license": "MIT",
+    "author": {
+        "name": "Kajetan Orzełek",
+        "email": "kajetan.orzelek@gmail.com",
+        "url": ""
+    },
+    "main": "./dist/main/main.js",
+    "scripts": {
+        "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+        "postinstall": "npm run electron-rebuild && npm run link-modules",
+        "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts"
+    },
+    "dependencies": {}
+}

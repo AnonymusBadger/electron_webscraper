@@ -1,0 +1,63 @@
+body {
+    min-width: 350px;
+}
+
+.controlls {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.openFolder {
+    max-width: min-content;
+}
+
+.pathName {
+    min-width: 0;
+    overflow: hidden;
+}
+
+.selectPath {
+    width: 100%;
+}
+
+.runBtn {
+    max-width: min-content;
+}
+
+.nameSearch {
+    width: 100%;
+}
+
+.selectWebsite {
+    width: 100%;
+}
+
+.controlsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .controlls {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .selectWebsite {
+        max-width: 200px;
+    }
+
+    .selectPath {
+        min-width: 200px;
+        max-width: min-content;
+    }
+
+    .nameSearch {
+        max-width: 250px;
+    }
+
+    .browserControlls {
+        margin-left: auto;
+    }
+}
