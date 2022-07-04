@@ -8,6 +8,10 @@
         "email": "kajetan.orzelek@gmail.com",
         "url": ""
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AnonymusBadger/electron_webscraper"
+    },
     "main": "./dist/main/main.js",
     "scripts": {
         "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
