@@ -8,6 +8,17 @@ const configs = new Map([
             validUrls: ['www.centrepompidou.fr/fr/recherche/oeuvres'],
         },
     ],
+    [
+        'Salvador Dalí',
+        {
+            name: 'Salvador Dalí',
+            saveDir: 'Salvador Dalí',
+            url: 'https://www.salvador-dali.org/fr/oeuvre/catalogue-raisonne-peinture/',
+            validUrls: [
+                'https://www.salvador-dali.org/fr/oeuvre/catalogue-raisonne-peinture/obres/',
+            ],
+        },
+    ],
 ]);
 
 export default configs;

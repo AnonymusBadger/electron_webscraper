@@ -1,5 +1,5 @@
 import path from 'path';
-import { Notification } from 'electron';
+import { BrowserWindow, Notification } from 'electron';
 import FileSystem from '../utils/FileSystem';
 import configs from '../website_config';
 import ScraperFactory from './ScraperFactory';
